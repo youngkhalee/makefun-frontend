@@ -1,6 +1,6 @@
-// Entry point for the makefun-frontend-01 submission (Node 22, stdlib only).
+// Submission entry point for makefun-frontend-01 (Node 22, stdlib only).
 // Copies the static app and its screenshots into the output directory and
-// writes the dossier the judges read, built with the vendored library.
+// writes the judges' dossier there, built with the vendored library.
 import { cpSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
